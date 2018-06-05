@@ -4,7 +4,7 @@
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING](CONTRIBUTING) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
@@ -14,7 +14,7 @@ See also the list of [contributors](https://gitlab.com/glicOne/romaniukvadim.git
 
 ## License
 
-This project is licensed under the WTFPL License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the WTFPL License - see the [LICENSE](LICENSE) file for details
 
 
 
