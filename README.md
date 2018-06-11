@@ -2,7 +2,7 @@
 
 ### Main page
 
-![1](https://i.imgur.com/tYJeuG5.png)
+![1](https://i.imgur.com/pbg7CwU.png)
 
 ### Music page
 
