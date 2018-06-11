@@ -1,0 +1,60 @@
+
+<!doctype html>
+<head>
+    <title>This Is Random!</title>
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" media="all" href="css/webm.css">
+</head>
+<body>
+
+<video id="video" autoplay preload="auto">
+<source  type="video/webm">
+<source  type="video/mp4">
+</video>
+<script>
+var videoPlayer= document.getElementById('video');
+function playIt(){
+videoPlayer.play();
+
+var videos = [
+"https://drive.google.com/uc?export=download&id=1D_CKLrz85vHaH8atJ89whEZW_v-JIGJ2",
+"https://drive.google.com/uc?export=download&id=1FS9DKDl6ldvB-fq0-zwqOQzOgzVsmH9f",
+"https://drive.google.com/uc?export=download&id=1TzVSYc_aX_QSP4OBZj0hoP-AVhlAiOrj",
+"https://drive.google.com/uc?export=download&id=18j6KQGcv2QPf_OQ8CR5qLMmmoaXrrZ8D",
+"https://drive.google.com/uc?export=download&id=1YEVpU8uoQ0MSa7zyAJ-1DRMQfT6sIE9x",
+"https://drive.google.com/uc?export=download&id=14BJBjBAg8IPFTGVWe8FNnUJaz2Sx0qqM",
+"https://drive.google.com/uc?export=download&id=1PANMjqWGDeI4sbZFtpFiFjpp9LUz6IuE",
+"https://drive.google.com/uc?export=download&id=1GC5LPfXVhO7y9374jnpi29h2lXv0iJiP",
+"https://drive.google.com/uc?export=download&id=1z7yRAH7TKV5-SLF_sT4XVqRRW55kiG8-",
+"https://drive.google.com/uc?export=download&id=1DNdIFxPCD72zfO0TQoGe1n3Itl6LOmIA",
+"https://drive.google.com/uc?export=download&id=1L-snnAPkrpJntrt_qWlLCgcYU5A_DsmQ",
+"https://drive.google.com/uc?export=download&id=1mwrhQ_z2MvXUeReL5C4dhVN6cKves_ub",
+"https://drive.google.com/uc?export=download&id=1PUegzcssb7WoF_dLC87ppgFVQHPeRPub",
+"https://drive.google.com/uc?export=download&id=1gMhQjkFQP8-6TVmPVlGj6hXP9ISIe-qB",
+"https://drive.google.com/uc?export=download&id=1v7xsN1GOM0l9kUB7vhOHirsC0kUnt_x3",
+"https://drive.google.com/uc?export=download&id=1AlAOMoUc_tp6s5q92cgBvFhgCR3fFNl3",
+"https://drive.google.com/uc?export=download&id=1KBCEz45hT2FaM-WOaMnA-Xc-deMIJrFU",
+"https://drive.google.com/uc?export=download&id=1WmbJNvXoXpsKWblG6FCeE0IxnTv-JFO5",
+"https://drive.google.com/uc?export=download&id=15D2OI8KCfzRUkWOQHmObPa16hwEnVmsH",
+"https://drive.google.com/uc?export=download&id=19BPurGd7ER2Nuf2as8CBE9LqFqVdjq_h",
+"https://drive.google.com/uc?export=download&id=10bjvEwxAyRyMYfMjBs0XEKBf0_D0m-hO",
+"https://drive.google.com/uc?export=download&id=1DB-lwK9-ppvm_J8dWXvVlG4Kfof2O8Ba",
+"https://drive.google.com/uc?export=download&id=1yPmMeoIbxnhasLUC8Ky-siZjFmgeB_Sb",
+"https://drive.google.com/uc?export=download&id=1g-LlTZSslkdF6aadhXN0gz4WPBnVb4vc",
+"https://drive.google.com/uc?export=download&id=1ACHwisOBAnN38toXZSHE6Qdp2pm1KfZc",
+"https://drive.google.com/uc?export=download&id=1_4ntPfSqcdjmO3zYPhwVQBrHoPMU41Va",
+"https://drive.google.com/uc?export=download&id=1CKVEXyZmLBxKUbVmQ89vjiIS8AQtvwVA",
+"https://drive.google.com/uc?export=download&id=1YbTK1ykKAnqPeF2re6WbxRkPO1ugY9kq",
+"https://drive.google.com/uc?export=download&id=122xb58s5p_b3n9DXOc6bLl-Hn28yqRNA"
+], videos = videos[Math.floor(Math.random() * videos.length)];
+
+videoPlayer.src = videos;
+}
+
+videoPlayer.addEventListener('ended', playIt, false);
+
+playIt();
+
+</script>
+</body>
+</html>
