@@ -65,7 +65,7 @@ function aplayer () {
             name: 'Break it Down',
             artist: 'Kidz In The Hall',
             url: 'https://drive.google.com/uc?export=download&id=1S_DZnnwLxOKLATYr5v5IXIVbUCkyn1b3',
-            cover: '',
+            cover: 'https://drive.google.com/uc?export=download&id=13DjYrJeySVxttvPJ3vdCVO9Ac-ekWRU_',
             lrc: '',
             theme: '#505d6b'
         }, {
