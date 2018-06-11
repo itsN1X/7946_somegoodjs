@@ -1,6 +1,12 @@
 # My personal site (source)
 
-![1](https://i.imgur.com/hAyDzW2.png)
+### Main page
+
+![1](https://i.imgur.com/tYJeuG5.png)
+
+### Music page
+
+![2](https://i.imgur.com/tYJeuG5.png)
 
 ## Contributing
 
